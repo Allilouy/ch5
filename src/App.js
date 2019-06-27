@@ -24,9 +24,9 @@ function App() {
 
 <Photo src={photo}  />
 <br />
-<Button onClick={()=>{
+<Button isShown="true" onClick={()=>{
 window.location="https://www.facebook.com/Allilouy"  
-}}> My facebook</Button>
+}}>My facebook</Button>
 
 <Button onClick={()=>{
 window.location="https://www.instagram.com/allilouy/"  
